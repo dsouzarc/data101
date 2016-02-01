@@ -8,6 +8,7 @@ plot(automobile.data$make,automobile.data$price)
 plot(automobile.data$engine.size, automobile.data$horse.power)
 
 r <- tapply(automobile.data$price,automobile.data$body.style,mean)
+print(r)
 barplot(r,ylim=c(0, max(r)))
 
 stripchart(automobile.data$price)
