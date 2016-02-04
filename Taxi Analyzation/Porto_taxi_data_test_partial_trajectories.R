@@ -29,6 +29,6 @@ callTypeFrequency = tabulate(callType)
 
 #Graph the data
 par(mar = c(6, 4.1, 4.1, 2.1))
-barplot(callTypeFrequency, names.arg=c("Central", "Stand", "Street"), xlab = '', ylab = 
-          'Number of trips', las = 2, ylim = c(0, max(callTypeFrequency) * 1.1), main = 'Number of Trips From Each Dispatch Location')
+#barplot(callTypeFrequency, names.arg=c("Central", "Stand", "Street"), xlab = '', ylab = 
+#          'Number of trips', las = 2, ylim = c(0, max(callTypeFrequency) * 1.1), main = 'Number of Trips From Each Dispatch Location')
 mtext(text = 'Trip dispatch location', side = 1, line = 4.5)
